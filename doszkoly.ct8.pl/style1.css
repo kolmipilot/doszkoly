@@ -1,0 +1,177 @@
+body
+{
+   /* This pattern is downloaded from www.subtlepatterns.com */
+ /*background-image: url("image/dark-honeycomb.png");  */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,50,148,1) 48%, rgba(4,197,139,1) 72%, rgba(0,212,255,1) 100%);
+}
+
+#container
+{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.popo
+{
+  color: #ffffff;
+  text-decoration: underline;
+ 
+}
+
+a.popo:hover
+{
+  color: black;
+  text-decoration: none;
+}
+a.mailik
+{
+  color: #FFF8DC  ;
+  text-decoration: underline;
+}
+a.mailik:hover
+{
+  color: #FFFAF0;
+  text-decoration: none;
+}
+#ankieta
+{
+  background-color: #fffff;
+  text-align: center;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  color: blue;
+  p {color: # ffffff; }
+}
+
+
+#form
+{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  height: 500px;
+  color: #ffffff;
+  text-align: center;
+}
+footer
+{
+  padding: 10px;
+
+
+}
+#tytul
+{
+  text-align: right;
+  padding: 10px;
+  background-color: #006666;
+  width: 590px;
+  float: left;
+  height: 128px;
+}
+
+.zegar1
+{
+  width: 390px;
+  background-color: black;
+  float: left;
+  height: 148px;
+  background-color: #006666;
+  text-align: center;
+  font-size: 40px;
+  
+}
+#zegar
+{
+  margin-top: 50px;
+}
+
+#lista
+{
+  color: #117777
+  
+  
+}
+
+  
+
+.text
+{
+  padding: 20px;
+  background-color: 005555;
+  text-align: center;
+  height: 500px;
+}
+.footer
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+  clear: both;
+  height: 40px;
+}
+.menu
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 200%;
+  min-height: 40px;
+}
+.menu > li 
+{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right:20px;
+  border-right: 1px solid #000;
+  margin-top: 10px;
+}
+.menu > li:first-child
+{
+border-left: 1px solid #000;
+}
+nav 
+{
+  background-color: #117777;
+  text-align: center;
+  
+}
+.menu a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+.menu a:hover
+{
+  color: #0a2b42;
+  
+}
+
+.text a:hover
+{
+  color: #0a2b42;
+  
+}
+
+#textin
+{
+  padding: 20px;
+  background-color: 005555;
+  text-align: center;
+  height: 500px;
+  float: left;
+  width: 500px;
+}  
+#texting
+{
+  padding: 20px;
+  background-color: 005555;
+  text-align: center;
+  height: 500px;
+  float: left;
+  width: 420px;
