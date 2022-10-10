@@ -44,7 +44,7 @@
 
 
   
-  $conn = new mysqli("mysql.ct8.pl", "m24724_hala", "Qwertuiopas1", "m24724_enter") or die("Błąd");
+  $conn = new mysqli("censored") or die("Błąd");
     
   $conn->query("INSERT INTO `Imiona` VALUES (NULL,'$imie', '$data', '$czas')");
 
