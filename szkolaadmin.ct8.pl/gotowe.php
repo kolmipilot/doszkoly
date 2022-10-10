@@ -20,7 +20,7 @@
    
     $PIN=$_POST['Pin'];
     
-if($PIN=="Qwertuiopas1"){
+if($PIN=="1111"){
    
    
    
@@ -29,7 +29,7 @@ if($PIN=="Qwertuiopas1"){
      
      //$sql="SELECT imie FROM Imiona where id=6";
      $sql="SELECT * FROM Imiona";
-    $conni = new mysqli("mysql.ct8.pl", "m24724_hala", "Qwertuiopas1", "m24724_enter");
+    $conni = new mysqli("censored");
     $imie = $conni->query($sql);
     
     $wiersze = $imie->fetch_all(MYSQLI_ASSOC);
